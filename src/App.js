@@ -55,7 +55,6 @@ export class App extends Component {
            <News setProgress = {this.setProgress} apiKey={this.apiKey} key="technology" pageSize={this.pageSize} category="technology" country="in"/>
           </Route>
         </Switch>
-        
       </div>
       </Router>
     )
